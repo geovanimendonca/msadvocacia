@@ -1,57 +1,49 @@
 
 /* - HEADER - */
 #navbar {
-
   background-color: rgb(12, 21, 34);
   max-width: 100%;
-  align-items: center;
 }
 
 #navbar img {
-  
   margin-left: 35%;
-
   width: 30%;
 }
 
 #navbar .list {
-  margin-top: 10px;
   color:rgb(255, 255, 255);
-  display: flex;
-  list-style: none;
+  text-align: center;
+  
 }
 
 
 #navbar .list a {
-  margin-right: 40px;
+  margin-right: 50px;
   text-decoration: none;
   color:rgb(255,255, 255);
-  font-size: 18px;
+  font-size: 22px;
+  
+  
 }
 
 main {
-  max-width: 1800px;
-  display: block;
-  margin: 0 auto;
+  margin: 50px 50px 50px 50px;
+  text-align: center;
 }
 
 /* imagem jujridica */
 .imagem_juridica {
-  margin-top: 10px;
   width: 100%;
   height: 300px;
   object-fit: cover;
-
 }
 
 
-/* - SECTION: MAIN BANNER - */
+/* - SECTION: areas de atuacao - */
 #areas_atuacao {
-
-  justify-content: space-between;
-  align-items: flex-start;
   margin-top: 40px;
-  width: 50%
+  width: 100%;
+  text-align: center;
 }
 
 #areas_atuacao .escrito_esquerda {
@@ -71,20 +63,18 @@ main {
   margin-bottom: 20px;
 }
 
+
+
 #areas_atuacao .texto a {
-  background-color: #458FF6;
-  color: white;
-  font-weight: 700;
+  background-color: rgb(12, 21, 34); 
+  color: rgb(253, 253, 253);
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none;
-  display: block;
-  width: 200px;
-  height: 60px;
+  display: inline-block;
   border-radius: 55px;
-  margin-top: 40px;
-
-  text-align: center; /* Alinhamento horizontal */
-  line-height: 58px; /* Alinhamento vertical */
-
+  font-size: 16px;
+  align-items: center;
   transition: transform 150ms, box-shadow 150ms;
 }
 
@@ -99,15 +89,14 @@ main {
 
 /* - SECTION: OUR SERVICES - */
 #our-services {
-  margin-top: 190px;
-  margin-bottom: 190px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #our-services .section-header {
   text-align: center;
   margin: 0 auto;
   max-width: 952px;
-
   margin-bottom: 50px;
 }
 
@@ -120,7 +109,6 @@ main {
 #our-services .section-header hr {
   border-bottom: 2px solid black;
   width: 56px;
-
   display: block;
   margin: 0 auto;
 }
@@ -159,3 +147,4 @@ main {
   font-size: 16px;
   color: #7D7987;
 }
+
