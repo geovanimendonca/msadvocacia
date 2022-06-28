@@ -1,72 +1,77 @@
 
 /* - HEADER - */
 #navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
   background-color: rgb(12, 21, 34);
-  max-width: 1800px;
-  margin: 0 auto; 
+  max-width: 100%;
+  align-items: center;
 }
 
 #navbar img {
-  width: 400px;
+  
+  margin-left: 35%;
+
+  width: 30%;
 }
 
-#navbar .nav-list {
+#navbar .list {
+  margin-top: 10px;
   color:rgb(255, 255, 255);
   display: flex;
   list-style: none;
 }
 
-#navbar .nav-list .nav-item {
-  margin-right: 40px;
-  
-}
 
-#navbar .nav-list .nav-item a {
+#navbar .list a {
+  margin-right: 40px;
   text-decoration: none;
   color:rgb(255,255, 255);
   font-size: 18px;
 }
 
-#navbar .nav-list .nav-item.active {
-  font-weight: 700;
-}
-
 main {
-  max-width: 1400px;
+  max-width: 1800px;
   display: block;
   margin: 0 auto;
 }
 
+/* imagem jujridica */
+.imagem_juridica {
+  margin-top: 10px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+
+}
+
+
 /* - SECTION: MAIN BANNER - */
-#main-banner {
-  display: flex;
+#areas_atuacao {
+
   justify-content: space-between;
   align-items: flex-start;
-
   margin-top: 40px;
+  width: 50%
 }
 
-#main-banner .banner-content {
-  padding-top: 100px;
-  width: 450px;
+#areas_atuacao .escrito_esquerda {
+  float: left;
+  width: 50%;
 }
 
-#main-banner .banner-content h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
+#areas_atuacao .escrito_direita {
+  float: right;
+  width: 50%;
 }
 
-#main-banner .banner-content p {
+#areas_atuacao .texto p {
   font-size: 21px;
   font-weight: 300;
   color: #7D7987;
   margin-bottom: 20px;
 }
 
-#main-banner .banner-content a {
+#areas_atuacao .texto a {
   background-color: #458FF6;
   color: white;
   font-weight: 700;
@@ -83,11 +88,14 @@ main {
   transition: transform 150ms, box-shadow 150ms;
 }
 
-#main-banner .banner-content a:hover {
+#areas_atuacao .texto a:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
   transition: transform 150ms, box-shadow 150ms;
 }
+
+
+
 
 /* - SECTION: OUR SERVICES - */
 #our-services {
@@ -150,38 +158,4 @@ main {
 #our-services .services .service p {
   font-size: 16px;
   color: #7D7987;
-}
-
-/* Breakpoint de 1400px: menor do que 1400px */
-@media screen and (max-width: 1400px) {
-  #navbar {
-    max-width: auto;
-    width: 90%;
-  }
-
-  main {
-    max-width: auto;
-    width: 90%;
-  }
-}
-
-/* Breakpoint de 1200px: menor do que 1200px */
-@media screen and (max-width: 1200px) {
-  #main-banner {
-    flex-direction: column;
-  }
-
-  #main-banner .banner-content {
-    padding-top: 0;
-    width: 30%;
-  }
-
-  #main-banner .banner-image {
-    display: block;
-    margin: 0 auto;
-  }
-
-  #main-banner .banner-image img {
-    width: 30%;
-  }
 }
