@@ -6,14 +6,13 @@
 }
 
 #navbar img {
-  margin-left: 35%;
-  width: 30%;
+  margin-left: 37.5%;
+  width: 25%;
 }
 
 #navbar .list {
   color:rgb(255, 255, 255);
   text-align: center;
-  
 }
 
 
@@ -21,9 +20,7 @@
   margin-right: 50px;
   text-decoration: none;
   color:rgb(255,255, 255);
-  font-size: 22px;
-  
-  
+  font-size: medium;
 }
 
 main {
@@ -64,6 +61,20 @@ main {
 }
 
 
+#areas_atuacao .header {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 952px;
+  margin-bottom: 10px;
+}
+
+
+#areas_atuacao .header hr {
+  border-bottom: 2px solid black;
+  width: 56px;
+  display: block;
+  margin: 0 auto;
+}
 
 #areas_atuacao .texto a {
   background-color: rgb(12, 21, 34); 
@@ -85,66 +96,138 @@ main {
 }
 
 
-
-
 /* - SECTION: OUR SERVICES - */
-#our-services {
+#home {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-#our-services .section-header {
+#home .section-header {
   text-align: center;
   margin: 0 auto;
   max-width: 952px;
   margin-bottom: 50px;
 }
 
-#our-services .section-header .section-title {
+#home .section-header .section-title {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 26px;
 }
 
-#our-services .section-header hr {
+#home .section-header hr {
   border-bottom: 2px solid black;
   width: 56px;
   display: block;
   margin: 0 auto;
 }
 
-#our-services .section-header .subtitle {
+#home .section-header .subtitle {
   margin-top: 26px;
   font-size: 18px;
   color: #7D7987;
   font-weight: 300;
 }
 
-#our-services .services {
+#home .services {
   display: flex;
   flex-wrap: wrap; /* Quebra os elementos */
   /* padding: 0 40px; */
 }
 
-#our-services .services .service {
+#home .services .service {
   background-color: #fff;
   margin: 17px;
   padding: 40px;
   border-radius: 20px;
-
   flex: 1 1 400px;
 }
 
-#our-services .services .service img {
+#home .services .service img {
   margin-bottom: 22px;
 }
 
-#our-services .services .service h3 {
+#home .services .service h3 {
   margin-bottom: 22px;
 }
 
-#our-services .services .service p {
+#home .services .service p {
   font-size: 16px;
   color: #7D7987;
 }
 
+
+/* Section fotos advogadas */
+
+
+#equipe{
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+#equipe .header {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 952px;
+  margin-bottom: 10px;
+}
+
+
+#equipe .header hr {
+  border-bottom: 2px solid black;
+  width: 56px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.imagem_larissa{
+  width: 25%;
+  float: left;
+}
+
+.imagem_larissa img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.descricao_larissa{
+  padding-top: 10%;
+  width: 25%;
+  float: left;
+}
+
+.imagem_morgana{
+  width: 25%;
+  float: left;
+}
+
+.imagem_morgana img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.descricao_morgana{
+  padding-top: 10%;
+  width: 25%;
+  float: left;
+}
+
+
+#rodape .imagem_juridica {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#rodape .endereco{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#rodape .endereco h5{
+  padding-top: 10px;
+}
