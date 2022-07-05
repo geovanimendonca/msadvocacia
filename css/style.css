@@ -1,0 +1,183 @@
+/* imagem jujridica */
+.imagem-juridica {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* - SECTION: missao, visão e valores - */
+#home .section-header {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 999px;
+  margin-top: 20px;
+}
+
+#home .section-header .section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#home .section-header hr {
+  border-bottom: 2px solid black;
+  width: 56px;
+  display: block;
+  margin: 0 auto;
+}
+
+#home .section-header .subtitle {
+  margin-top: 26px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#home .services {
+  display: flex;
+  flex-wrap: wrap; /* Quebra os elementos */
+  /* padding: 0 40px; */
+}
+
+#home .services .service {
+  background-color: #f5f5f5;
+  margin: 17px;
+  padding: 40px;
+  border-radius: 20px;
+  flex: 1 1 400px;
+}
+
+#home .services .service h3 {
+  margin-bottom: 22px;
+}
+
+
+
+/* - SECTION: areas de atuacao - */
+#areas-atuacao {
+  margin-bottom: 50px;
+}
+
+#areas-atuacao .header {
+  text-align: center;
+}
+
+#areas-atuacao .header hr {
+  border-bottom: 2px solid black;
+  width: 56px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#areas-atuacao .elementos{
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+}
+
+#areas-atuacao .elementos-child{
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 25px;
+}
+
+#areas-atuacao .elementos-child img {
+  width: 100px;
+  margin-top: 8px;
+}
+
+/*
+#areas-atuacao .texto p {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  font-size: 21px;
+  font-weight: 300;
+  color: #000000ec;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+*/
+
+
+/* Botão entrar em contato */
+#areas-atuacao .contato a {
+  background-color: rgb(12, 21, 34); 
+  color: rgb(253, 253, 253);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 55px;
+  font-size: 16px;
+  align-items: center;
+  transition: transform 150ms, box-shadow 150ms;
+}
+
+#areas-atuacao .texto a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 150ms, box-shadow 150ms;
+}
+
+
+/* Section advogadas */
+#equipe .header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#equipe .header hr {
+  border-bottom: 2px solid black;
+  width: 56px;
+  margin: 0 auto;
+}
+
+#equipe .info-advs{
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+}
+
+#equipe .advogada{
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 25px;
+}
+
+#equipe .advogada img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+#equipe h4{
+  margin-top: 8px;
+}
+
+/* Section rodape */
+#rodape .imagem-juridica {
+  margin-top: 15px;
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+#rodape .endereco{
+  text-align: center;
+  background-color: rgb(12, 21, 34);
+  margin-top: -5px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+}
+
+#rodape .endereco h5{
+  color: #ffffff;
+  padding-top: 15px;
+}
