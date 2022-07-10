@@ -1,7 +1,7 @@
 /* imagem jujridica */
 .imagem-juridica {
   width: 100%;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -57,7 +57,10 @@
 
 /* - SECTION: areas de atuacao - */
 #areas-atuacao {
+  padding-top: 15px;
   margin-bottom: 50px;
+  background-color: rgb(12, 21, 34);
+  
 }
 
 #areas-atuacao .header {
@@ -65,12 +68,19 @@
 }
 
 #areas-atuacao .header hr {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(255, 255, 255);
   width: 56px;
   display: block;
   margin: 0 auto;
 }
 
+#areas-atuacao h4{
+  color: #ffffff;
+}
+
+#areas-atuacao .header h2{
+  color:#ffffff
+}
 
 #areas-atuacao .elementos{
   display: flex;
@@ -107,8 +117,8 @@
 
 /* Botão entrar em contato */
 #areas-atuacao .contato a {
-  background-color: rgb(12, 21, 34); 
-  color: rgb(253, 253, 253);
+  background-color: rgb(255, 255, 255); 
+  color: rgb(12, 21, 34);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -119,9 +129,13 @@
   transition: transform 150ms, box-shadow 150ms;
 }
 
+#areas-atuacao .contato{
+  padding-bottom: 50px;
+}
+
 #areas-atuacao .texto a:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 5px 10px rgba(255, 253, 253, 0.25);
   transition: transform 150ms, box-shadow 150ms;
 }
 
